@@ -11,4 +11,5 @@ public class IKmhToMsConverterUnitTest {
     public void convertion_isCorrect() {
         assertEquals(1.0, testedClass.convertKmhToMs(3.6), 0.01);
     }
+
 }

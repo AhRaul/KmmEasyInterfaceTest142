@@ -13,4 +13,5 @@ public class KmhToMsConverter implements IKmhToMsConverter {
     public double convertKmhToMs(double value) {
         return value/CONVERT_VALUE;
     }
+
 }
